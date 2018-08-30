@@ -1,0 +1,9 @@
+<h2>Here are all my lovely students</h2>
+<ul>
+    {{#each students}}
+    <li>
+        <h4>{{this.name}}</h4>
+        <img src="{{this.picture}}" alt="{{this.name}}" width="300">
+    </li>
+    {{/each}}
+</ul>

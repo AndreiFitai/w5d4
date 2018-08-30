@@ -1,2 +1,6 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h2>Upload your photo</h2>
+<form action="/upload" method="POST" encType="multipart/form-data">
+    <input type="text" name="name" required='true' placeholder="Your name">
+    <input type="file" name="picture" required='true'>
+    <input type="submit">
+</form>
